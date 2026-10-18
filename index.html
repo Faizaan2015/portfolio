@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Favorite Movie</h1>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <!-- 1. Local Page Link (displays local image) -->
+      <a href="details.html" target="media-frame">Poster and Movie</a>
+
+      <!-- 2. Embedded YouTube Trailer/Song -->
+      <a href="https://www.youtube.com/embed/LLAaW1EgyY8?si=IDXSBT18Vjh0ALu9" target="media-frame"> Official Movie Trailer
+      </a>
+
+      <!-- 3. Live External Website -->
+      <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix_(film)" target="media-frame"> Wikipedia
+      </a>
+    </nav>
+
+<main class="container">
+    <iframe name="media-frame" src="details.html" title="Media Display"></iframe>
+</main>
+  </div>
+
+</body>
+</html>
